@@ -1,0 +1,163 @@
+*
+{
+	margin: 0; 
+	padding: 0;
+}
+
+body 
+{
+	font-family: arial;
+	background-color: lightpink;
+}
+
+#header
+{
+	background-color: black;
+	height: 100px;
+	width: 100%;
+}
+
+.container
+{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#logoarea
+{
+	width: 300px;
+	height: 100px;
+	background-image: url("carrotcrop2.jpg");
+	float: left;
+
+}
+
+#navarea
+{
+	width: 660px;
+	height: 100px;
+	float: right;
+}
+
+#nav
+{
+	list-style: none;
+	margin-top: 30px;
+
+}
+
+#nav a 
+{
+	color: black;
+	text-decoration: none;
+}
+
+#nav li
+{
+	float: right;
+	margin-left: 30px;
+	background-color: lightpink;
+	padding: 8px;
+	border: 1px solid hotpink;
+	border-radius: 5px;
+
+}
+
+#nav li:hover
+{
+	background-color: deeppink;
+
+}
+
+.page
+{
+	background-color: lightgreen;
+	padding: 20px;
+	border: 1px solid green;
+	height: 700px;
+	
+}
+
+#footer
+{
+	background-color: black;
+	padding: 20px;
+	height: 20px;
+	width: 100%;
+	color: white;
+}
+
+#box1
+{
+	width: 300px;
+	height: 250px;
+	background-color: green;
+	padding: 20px 20px 20px 40px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+
+#box2
+{
+	width: 350px;
+	height: 250px;
+	background-color: green;
+	padding: 20px 20px 20px 40px;
+	position: absolute; top: 120px; left: 700px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+#tv
+{
+	font-size: 15pt;
+	font-family: cursive;
+	
+}
+
+#movies
+{
+	font-size: 15pt;
+	font-family: cursive;
+	color: black;
+}
+
+h1
+{
+	font-family: monospace;
+	font-size: 20pt;
+	text-decoration: underline;
+
+}
+
+#money
+{
+	position: absolute; top: 450px; left: 450px;
+}
+
+#spencer
+{
+	position: absolute; top: 450px; left: 625px;
+}
+
+#spider
+{
+	position: absolute; top: 650px; left: 625px;
+}
+
+#johnny
+{
+	position: absolute; top: 450px; left: 810px;
+}
+
+#mcclane
+{
+	position: absolute; top: 650px; left: 810px;
+}
+
+#jp 
+{
+	position: absolute; top: 650px; left: 1000px;
+}
